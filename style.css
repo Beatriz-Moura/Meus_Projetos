@@ -1,0 +1,27 @@
+*{
+    background:cornflowerblue;
+}
+header h1{
+    text-align: center;
+}
+header span{
+    position: relative;
+    left: 600px;
+    text-align: center;
+}
+main{
+    background-color:rgb(122, 166, 247);
+}
+main h2{
+    text-align: center;
+}
+main img{
+    position: relative;
+    left: 300px;
+}
+footer section#sc{
+    position: relative;
+    bottom: 95px;
+    left: 500px;
+    width: 200px;
+}
