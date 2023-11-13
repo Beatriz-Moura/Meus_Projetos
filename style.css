@@ -4,6 +4,9 @@
 header h1{
     text-align: center;
 }
+header a {
+    background-color: cornflowerblue;
+}
 header span{
     position: relative;
     left: 600px;
@@ -13,12 +16,28 @@ main{
     background-color:rgb(122, 166, 247);
 }
 main h2{
+    background-color:rgb(122, 166, 247);
     text-align: center;
 }
-main img{
+
+main img#sc{
+   position: relative;
+   left: 150px;
+
+}
+
+main img#pm, img#tc{
     position: relative;
     left: 300px;
 }
+
+main p{
+    background-color:rgb(122, 166, 247);
+}
+main h3, a, strong{
+    background-color:rgb(122, 166, 247);
+}
+
 footer section#sc{
     position: relative;
     bottom: 95px;
