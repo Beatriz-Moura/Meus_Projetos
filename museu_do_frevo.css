@@ -11,6 +11,15 @@ header span{
     text-align: center;
     justify-content: center;
 }
+header a{
+    text-decoration: none;
+    color: black;
+    background-color: cornflowerblue;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
 main{
     background-color:rgb(122, 166, 247);
 }
@@ -29,18 +38,13 @@ main div{
 main p{
     background-color:rgb(122, 166, 247);
 }
+
 main h3, a, strong{
     background-color:rgb(122, 166, 247);
 }
-main a {
-    display: flex;
-    justify-content:center;
-    text-decoration: none;
-    color: black;
-}
-main a:hover{
-    text-decoration: underline;
-}
+
+
+
 footer{
     display: flex;
     justify-content: space-around;
